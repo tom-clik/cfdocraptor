@@ -4,7 +4,7 @@ ini_file = ExpandPath("settings.ini");
 if (NOT FileExists(ini_file)) {
 	throw(
 		message      = "Settings file settings.ini not found", 
-		detail       = "To use the sample scripts, please see settings_sample.ini.  Rename it to settings.ini and update your code"
+		detail       = "To use the sample scripts, please see settings_sample.ini.  Copy it to settings.ini and update your code"
 	
 	);
 }

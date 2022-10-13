@@ -3,7 +3,7 @@
  * Run a docraptor demo 
  * 
  */
-cfparam( default="xls", name="url.type" );
+cfparam( default="pdf", name="url.type" );
 cfparam( default="1", name="url.test" type="boolean" );
 
 cfinclude( template="docraptor_test_include.cfm" );
